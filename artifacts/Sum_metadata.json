@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "b",
+						"type": "int256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "result",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\Sum.sol": "Sum"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\Sum.sol": {
+			"keccak256": "0xc629c298e34df15948107456a7e68cd0212ea753b4d7ebee82be325779fc0381",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a87079986cf2724108c32adb0db1d9c2b1d27de96deff0e78fa1d26894735c60",
+				"dweb:/ipfs/QmYnf9jYkY2VWCTUdHpxB4PLJHRKeQRtwjEj9TUSq6JxkZ"
+			]
+		}
+	},
+	"version": 1
+}

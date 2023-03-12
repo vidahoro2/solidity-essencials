@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "changeProjectState",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "projectReceiver",
+						"type": "address"
+					}
+				],
+				"name": "fundProject",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts\\FundProject.sol": "FundProject"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts\\FundProject.sol": {
+			"keccak256": "0x1faf29314428128506d05741f4089dbb026bf5bcd2e34e60193192b1ac99e415",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e6f84fb3afd05923584489e59aeb5dfacd2e4b6c18ca7c40f352ea97bdd61ccf",
+				"dweb:/ipfs/QmYaRbM79T3DfnivxbKEE4otL42yiMVHjfaJmMzuJ7SY42"
+			]
+		}
+	},
+	"version": 1
+}
